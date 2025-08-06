@@ -38,8 +38,8 @@ const App = () => {
       github: 'https://github.com/akashprajapaticse/Smart-Traffic-Management-System',
       demo: 'https://akashprajapaticse.github.io/Smart-Traffic-Management-System/',
       screenshots: [
-        'https://github.com/akashprajapaticse/My-Portfolio/blob/main/src/assets/traffic1.png',
-        'https://github.com/akashprajapaticse/My-Portfolio/blob/main/src/assets/traffic2.png'
+        'https://raw.githubusercontent.com/akashprajapaticse/My-Portfolio/main/src/assets/traffic1.png',
+        'https://raw.githubusercontent.com/akashprajapaticse/My-Portfolio/main/src/assets/traffic2.png'
       ]
     },
     {
@@ -205,7 +205,7 @@ const App = () => {
             <div className="flex flex-col md:flex-row items-center gap-12">
               <div className="md:w-1/3 flex justify-center">
                 <img
-                  src="https://placehold.co/300x300/e0e0e0/333333?text=Profile+Photo"
+                  src="https://raw.githubusercontent.com/akashprajapaticse/My-Portfolio/main/src/assets/my_Photo.png"
                   alt="Akash Prajapati"
                   className="rounded-full w-64 h-64 object-cover shadow-lg border-4 border-blue-400 dark:border-purple-400"
                 />
