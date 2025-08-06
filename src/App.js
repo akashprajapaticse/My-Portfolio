@@ -35,11 +35,11 @@ const App = () => {
         'Developing a real-time adaptive traffic signal system using YOLOv8 and machine learning to minimize congestion and improve traffic flow.',
         'Integrating IoT sensors and blockchain to enable secure vehicle tracking and emergency vehicle authentication across intersections.'
       ],
-      github: 'https://github.com/akashprajapaticse/AI-Powered-Traffic-Management',
-      demo: 'https://placehold.co/600x400/007bff/ffffff?text=Demo+Video',
+      github: 'https://github.com/akashprajapaticse/Smart-Traffic-Management-System',
+      demo: 'https://akashprajapaticse.github.io/Smart-Traffic-Management-System/',
       screenshots: [
-        'https://placehold.co/600x400/e0e0e0/333333?text=Traffic+System+Screenshot+1',
-        'https://placehold.co/600x400/d0d0d0/333333?text=Traffic+System+Screenshot+2'
+        'https://github.com/akashprajapaticse/My-Portfolio/blob/main/src/assets/traffic1.png',
+        'https://github.com/akashprajapaticse/My-Portfolio/blob/main/src/assets/traffic2.png'
       ]
     },
     {
@@ -713,3 +713,6 @@ const App = () => {
 };
 
 export default App;
+
+
+
