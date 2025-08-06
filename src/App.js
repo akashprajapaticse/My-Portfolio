@@ -205,7 +205,7 @@ const App = () => {
             <div className="flex flex-col md:flex-row items-center gap-12">
               <div className="md:w-1/3 flex justify-center">
                 <img
-                  src="https://raw.githubusercontent.com/akashprajapaticse/My-Portfolio/main/src/assets/my_Photo.png"
+                  src="https://raw.githubusercontent.com/akashprajapaticse/My-Portfolio/main/src/assets/my_Photo.jpg"
                   alt="Akash Prajapati"
                   className="rounded-full w-64 h-64 object-cover shadow-lg border-4 border-blue-400 dark:border-purple-400"
                 />
