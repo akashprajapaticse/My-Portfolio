@@ -881,19 +881,6 @@ body::before {
     gap: 2rem;
     margin-bottom: 3rem;
 }
-
-.extra-projects {
-    opacity: 0;
-    max-height: 0;
-    overflow: hidden;
-    transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.extra-projects.show {
-    opacity: 1;
-    max-height: none;
-}
-
 .project-card {
     background: var(--bg-card);
     border-radius: var(--border-radius-lg);
@@ -1524,4 +1511,21 @@ body::before {
 
 .loading {
     animation: pulse 1.5s ease-in-out infinite;
+}
+
+#extra-projects,
+#extra-certificates {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease-in-out;
+}
+
+/* 
+  2. Ensures the View More/Show Less buttons are always centered.
+*/
+#view-more-btn-pro,
+#view-more-btn-cert {
+    display: block;
+    margin: 20px auto;
+    width: fit-content;
 }
